@@ -1,0 +1,29 @@
+.header {
+  width: 100vw;
+  height: 8rem;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;  
+}
+
+nav > ul {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+li {
+  list-style: none;
+  margin: 1rem;
+}
+
+li:hover {
+  background-color: #252121;
+  border-radius: 5px;
+}
